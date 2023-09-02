@@ -27,7 +27,7 @@ A replacement Model 100 system bus board for REXCPM with on-board batteries.
 
 PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No pcb fab link until the design is actually tested)
 
-BOM [DigiKey](https://www.digikey.com/short/0dpw7qw0)
+BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)
 
 ## status
 
