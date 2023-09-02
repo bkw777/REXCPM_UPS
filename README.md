@@ -9,7 +9,7 @@ A replacement Model 100 system bus board for REXCPM with on-board batteries.
   also the pins are fatter, which is ok in this case because the socket has round sockets not flat leaf type  
 * parts on bottom in the space created by the tall shoulders of the standard pins  
 * lower profile so that the board no longer pushes up on the compartment cover (the main REXCPM module needs this too but will not be so easy)  
-* nicer look, board outline with pin-1 notch matching the socket  
+* looks, board outline with pin-1 notch matching the socket  
 
 <!-- better while on github, broken everywhere else -->
 <!-- ![](../../raw/main/PCB/out/REXCPM_UPS_f.jpg -->
