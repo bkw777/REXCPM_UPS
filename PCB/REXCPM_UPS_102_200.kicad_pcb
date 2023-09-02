@@ -6,7 +6,7 @@
 
   (paper "USLetter")
   (title_block
-    (title "REXCPM UPS 102/200")
+    (title "REXCPM UPS 102_200")
     (date "2023-09-02")
     (rev "001")
     (company "Brian K. White - b.kenyon.w@gmail.com")
@@ -393,7 +393,7 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 8ed689a3-cda5-47fd-a28e-57baec96931d))
     (fp_arc (start 4.906989 3.352321) (mid 4.800001 2.952056) (end 4.905239 2.551328)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 25d90867-5f8b-41c7-9657-0cea26887945))
-    (fp_arc (start 5.3 1.697943) (mid 5.280925 1.852064) (end 5.224755 1.996844)
+    (fp_arc (start 5.3 1.697943) (mid 5.280926 1.852063) (end 5.224755 1.996844)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp acce0a08-2113-433f-9d8c-e5b64434d6ee))
     (fp_line (start -6.35 -1.6375) (end -5.55 -1.6375)
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1cb307bc-cab8-4041-bfc2-f931b6526e7e))
@@ -624,7 +624,7 @@
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d35ca477-0cd3-42a8-ab3a-3ab3e3633f9c))
     (fp_arc (start 4.906989 3.352321) (mid 4.800001 2.952056) (end 4.905239 2.551328)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d6eff6c8-48fe-4b9b-820e-b31b6e42c020))
-    (fp_arc (start 5.3 1.697943) (mid 5.280878 1.85205) (end 5.224755 1.996844)
+    (fp_arc (start 5.3 1.697943) (mid 5.280878 1.852051) (end 5.224755 1.996844)
       (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 882e503a-b311-499b-a392-c7ce5eb5c8ba))
     (fp_line (start -6.35 -1.6375) (end -5.55 -1.6375)
       (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 34767bc6-6691-43b2-ad6b-f4bdc38966b3))

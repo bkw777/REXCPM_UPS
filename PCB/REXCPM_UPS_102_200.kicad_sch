@@ -5,7 +5,7 @@
   (paper "USLetter")
 
   (title_block
-    (title "REXCPM UPS 102/200")
+    (title "REXCPM UPS 102_200")
     (date "2023-09-02")
     (rev "001")
     (company "Brian K. White - b.kenyon.w@gmail.com")
