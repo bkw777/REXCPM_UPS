@@ -13,17 +13,17 @@ A replacement Model 100 system bus board for REXCPM with on-board batteries.
 * lower profile so that the board no longer pushes up on the compartment cover (the main REXCPM module needs this too but will not be so easy)  
 * appearance, pin-1 notch matching the socket, etc
 
-![](PCB/out/REXCPM_UPS_f.jpg)
-![](PCB/out/REXCPM_UPS_b.jpg)
-![](PCB/out/REXCPM_UPS_b_filled.jpg)
-![](PCB/out/REXCPM_UPS_batt_end.jpg)
-![](PCB/out/REXCPM_UPS_wire_end.jpg)
+![](PCB/out/REXCPM_UPS_100_f.jpg)
+![](PCB/out/REXCPM_UPS_100_b.jpg)
+![](PCB/out/REXCPM_UPS_100_b_filled.jpg)
+![](PCB/out/REXCPM_UPS_100_batt_end.jpg)
+![](PCB/out/REXCPM_UPS_100_wire_end.jpg)
 
 ## schematic, pcb, bom
 
-![](PCB/out/REXCPM_UPS.svg)
-![](PCB/out/REXCPM_UPS_top.jpg)
-![](PCB/out/REXCPM_UPS_bottom.jpg)
+![](PCB/out/REXCPM_UPS_100.svg)
+![](PCB/out/REXCPM_UPS_100_top.jpg)
+![](PCB/out/REXCPM_UPS_100_bottom.jpg)
 
 PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No pcb fab link until the design is actually tested)
 
@@ -32,3 +32,7 @@ BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)
 ## status
 
 One possible problem yet to be determined, might be something, might be nothing: The batteries need a diode to protect against charging. The original board from Steve has a 2-diode part with one of the diodes not used, so this design uses the same part and uses the previously un-used diode for the battery. But the original part is a Schottky type, and that might not be sufficient for protecting the battery.
+
+## TANDY 102/200 Version
+![](PCB/out/REXCPM_UPS_102_200.jpg)
+![](PCB/out/REXCPM_UPS_102_200_side.jpg)
