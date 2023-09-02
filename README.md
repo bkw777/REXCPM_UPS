@@ -1,5 +1,5 @@
 # REXCPM UPS
-A replacement Model 100 system bus board for REXCPM  
+A replacement Model 100 system bus board for REXCPM with on-board batteries.
 
 ## goals  
 * battery to keep the REXCPM sram powered while out of the 100 or when the 100's batteries die  
