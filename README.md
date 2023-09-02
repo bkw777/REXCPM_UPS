@@ -15,11 +15,14 @@ A replacement Model 100 system bus board for REXCPM with on-board batteries.
 <!-- ![](../../raw/main/PCB/out/REXCPM_UPS_f.jpg -->
 
 ![](PCB/out/REXCPM_UPS_f.jpg)
-![](PCB/out/REXCPM_UPS_bare.jpg)
 ![](PCB/out/REXCPM_UPS_b.jpg)
-![](PCB/out/REXCPM_UPS_b2.jpg)
+![](PCB/out/REXCPM_UPS_b_filled.jpg)
 ![](PCB/out/REXCPM_UPS_end_b.jpg)
+
+Single cell option. Just install one battery holder. You can use either position, they are connected in parallel. So if you prefer the battery be more recessed and protected, you cane use just the BT2 position instead of BT1.  
 ![](PCB/out/REXCPM_UPS_1_batt.jpg)
+
+Two-cell option. Bend up the rear wall tabs on one of the holders, and pass the 2nd cell through the BT1 holder.
 ![](PCB/out/REXCPM_UPS_2_batt.jpg)
 
 ## schematic & pcb
