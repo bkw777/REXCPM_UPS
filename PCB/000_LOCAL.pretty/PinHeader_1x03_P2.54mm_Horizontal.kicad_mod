@@ -114,7 +114,7 @@
   (pad "1" thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a83620cc-663e-4916-a495-9e940bf738d7))
   (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 7f56c2da-2ea0-4ac4-9fdd-3ef7af83e479))
   (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp ded288fe-7727-4a0f-9b05-87fd928122f3))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
@@ -123,5 +123,25 @@
     (offset (xyz 4.064 0 1.27))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
+  )
+  (model "${KIPRJMOD}/000_LOCAL.pretty/000_3d/pin_header_1x3x2.54_horiz_cut.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/000_LOCAL.pretty/000_3d/solder_dome.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/000_LOCAL.pretty/000_3d/solder_dome.step"
+    (offset (xyz 0 -2.54 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/000_LOCAL.pretty/000_3d/solder_dome.step"
+    (offset (xyz 0 -5.08 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
