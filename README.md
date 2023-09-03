@@ -34,5 +34,8 @@ BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)
 One possible problem yet to be determined, might be something, might be nothing: The batteries need a diode to protect against charging. The original board from Steve has a 2-diode part with one of the diodes not used, so this design uses the same part and uses the previously un-used diode for the battery. But the original part is a Schottky type, and that might not be sufficient for protecting the battery.
 
 ## TANDY 102/200 Version
-![](PCB/out/REXCPM_UPS_102_200.jpg)
-![](PCB/out/REXCPM_UPS_102_200_side.jpg)
+![](PCB/out/REXCPM_UPS_102_200_f.jpg)
+![](PCB/out/REXCPM_UPS_102_200_b.jpg)
+![](PCB/out/REXCPM_UPS_102_200_top.jpg)
+![](PCB/out/REXCPM_UPS_102_200_bottom.jpg)
+![](PCB/out/REXCPM_UPS_102_200.svg)

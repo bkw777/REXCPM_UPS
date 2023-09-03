@@ -1218,6 +1218,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19b915c5-a165-47d0-89b5-9cb6043c117c)
   )
+  (text "system bus connection shown using the standard pin numbers for the connector,\nnot the odd<>even switched pin numbers in the Tandy 102 & 200 manuals."
+    (at 17.78 198.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 20070c37-064c-4a6b-bfe5-5edb70f348d7)
+  )
   (text "CLK" (at 72.39 87.63 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 208cb7cc-812f-47fd-811f-d39cf6aa335a)
