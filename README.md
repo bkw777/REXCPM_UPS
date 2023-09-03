@@ -17,8 +17,9 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 One possible problem yet to be determined, might be something, might be nothing: The batteries need a diode to protect against charging. The original board from Steve has a 2-diode part with one of the diodes not used, so this design uses the same part and uses the previously un-used diode for the battery. But the original part is a Schottky type, and that might not be sufficient for protecting the battery.
 
 ## For TRS-80 Model 100
+
 PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No fab link until the design is actually tested)  
-BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)
+BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)  
 
 ![](PCB/out/REXCPM_UPS_100_f.jpg)
 ![](PCB/out/REXCPM_UPS_100_b.jpg)
@@ -30,6 +31,10 @@ BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)
 ![](PCB/out/REXCPM_UPS_100.svg)
 
 ## For TANDY Model 102 and 200
+
+PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No fab link until the design is actually tested)  
+BOM [DigiKey](https://www.digikey.com/short/90wmmfhv)  
+
 ![](PCB/out/REXCPM_UPS_102_200_f.jpg)
 ![](PCB/out/REXCPM_UPS_102_200_b.jpg)
 ![](PCB/out/REXCPM_UPS_102_200_top.jpg)
