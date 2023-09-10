@@ -1,8 +1,6 @@
 # REXCPM UPS
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
-** \*\*\* NOT YET TESTED \*\*\* **
-
 ## goals  
 * battery to keep the REXCPM sram powered while out of the 100 or when the 100's batteries die  
 * simpler more convenient standard round pins, simpler to repair  
@@ -14,7 +12,12 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 * appearance, pin-1 notch matching the socket, etc
 
 ### status
-One possible problem yet to be determined, might be something, might be nothing: The batteries need a diode to protect against charging. The original board from Steve has a 2-diode part with one of the diodes not used, so this design uses the same part and uses the previously un-used diode for the battery. But the original part is a Schottky type, and that might not be sufficient for protecting the battery.
+Both versions tested and working, but the batteries don't last long enough to be worth it.
+
+There is no proper ground path back from the rexcpm, but it is leaking back through the other signals somehow.
+
+With new batteries at 3.2v, and the rexcpm and bus board removed from the 100, the big cap on the rexcpm starts at 4.7v, drains down to 2.52v over 15 minutes, then stays at 2.52v, and then loses another 0.2v over 24 hours.  
+At that rate, the rexcpm memory will only last about 2 to 3 days on it's own.
 
 ## For TRS-80 Model 100
 
