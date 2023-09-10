@@ -20,6 +20,11 @@ With new batteries at 3.2v, and the rexcpm and bus board removed from the 100, t
 
 If the batteries were just powering the sram chip, they should last over a year.
 
+![](ref/100_1.jpg)
+![](ref/100_2.jpg)
+![](ref/102_200_1.jpg)
+![](ref/102_200_2.jpg)
+
 ## For TRS-80 Model 100
 
 PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No fab link until the design is actually tested)  
