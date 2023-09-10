@@ -14,9 +14,11 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 ### status
 Both versions tested and working, but the batteries don't last long enough to be worth it.
 
-There is no proper ground path back from the rexcpm, but it is leaking back through the other signals somehow.
+If the REXCPM and bus board are removed from the host computer, there is no proper ground path from the REXCPM back to the bus board to complete the battery power circuit, but it's working anyway because it's leaking back through the other signals somehow.
 
 With new batteries at 3.2v, and the rexcpm and bus board removed from the 100, the big cap on the rexcpm starts at 4.7v, drains down to 2.5v over 15 minutes, then stays at 2.5v, and then loses another 0.2v over 24 hours. At that rate, the rexcpm memory will only last about 2 to 3 days on it's own.
+
+If the batteries were just powering the sram chip, they should last over a year.
 
 ## For TRS-80 Model 100
 
