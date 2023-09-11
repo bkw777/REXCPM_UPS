@@ -13,7 +13,7 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 ### status
 Both versions tested and working, but the batteries don't last long enough to be worth it.
 
-If the REXCPM and bus board are removed from the host computer, there is no proper ground path from the REXCPM back to the bus board to complete the battery power circuit, but it's working anyway because it's leaking back through the other signals somehow.
+If the REXCPM and bus board are removed from the host computer, there is no proper ground path from the REXCPM back to the bus board to complete the battery circuit. RAM_RST is the positive, and normally the GND connection would be through the GND pins on both the option rom and system bus sockets in the host computer when the REXCPM is installed. But with the REXCPM removed the GND pins are not connected, and so the batteries *shouldn't* actually do anything. But it's working anyway because it's leaking back via that RAM or /WR lines somehow.
 
 With new batteries at 3.2v, and the rexcpm and bus board removed from the 100, the big cap on the rexcpm starts at 4.7v, drains down to 2.5v over 15 minutes, then stays at 2.5v, and then loses another 0.2v over 24 hours. At that rate, the rexcpm memory will only last about 2 to 3 days on it's own.
 
@@ -26,7 +26,7 @@ If the batteries were just powering the sram chip, they should last over a year.
 
 ## For TRS-80 Model 100
 
-PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No fab link until the design is actually tested)  
+<!-- PCB [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
 BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)  
 
 ![](PCB/out/REXCPM_UPS_100_f.jpg)
@@ -40,7 +40,7 @@ BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)
 
 ## For TANDY Model 102 and 200
 
-PCB <!-- [PCBWAY](https://www.pcbway.com/project/shareproject/)  --> (No fab link until the design is actually tested)  
+<!-- PCB [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
 BOM [DigiKey](https://www.digikey.com/short/90wmmfhv)  
 
 ![](PCB/out/REXCPM_UPS_102_200_f.jpg)
