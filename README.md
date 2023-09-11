@@ -6,9 +6,8 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 * simpler more convenient standard round pins, simpler to repair  
 * more robust all 40 pins instead of delicate single unsupported pins without neighbors  
 * more pins -> more friction -> more secure installation  
-  also the pins are fatter, which is ok in this case because the socket has round sockets not flat leaf type  
-* parts on bottom in the space created by the tall shoulders of the standard pins  
-* lower profile so that the board no longer pushes up on the compartment cover (the main REXCPM module needs this too but will not be so easy)  
+  also the pins are fatter -> more friction, which is ok in this case because the socket has round pin sockets not flat leaf type  
+* parts on bottom in the space created by the tall shoulders of the generic pin headers  
 * appearance, pin-1 notch matching the socket, etc
 
 ### status
