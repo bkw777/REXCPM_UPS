@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.8,
+          "width": 1.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -187,6 +187,10 @@
         {
           "diameter": 0.5,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false,
@@ -415,7 +419,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "REXCPM_UPS.kicad_pro",
+    "filename": "REXCPM_UPS_100.kicad_pro",
     "version": 1
   },
   "net_settings": {
