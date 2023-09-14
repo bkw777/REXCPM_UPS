@@ -11,6 +11,16 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 * appearance, pin-1 notch matching the socket, etc
 
 ### status
+
+latest revision waiting for testing
+
+Updated to address battery life:  
+* add GND wire to the rexcpm. This will require modding the REXCPM to install a 4-pin connector
+* replace the 3-pin plain pin header with 4-pin JST-SH connectors (aka Qwiic)
+* add 2 more battery cells for 4 total cells
+
+#### old status
+
 Both versions tested and working, but the batteries don't last long enough to be worth it.
 
 If the REXCPM and bus board are removed from the host computer, there is no proper ground path from the REXCPM back to the bus board to complete the battery circuit. RAM_RST is the positive, and normally the GND connection would be through the GND pins on both the option rom and system bus sockets in the host computer when the REXCPM is installed. But with the REXCPM removed the GND pins are not connected, and so the batteries *shouldn't* actually do anything. But it's working anyway because it's leaking back via that RAM or /WR lines somehow.
