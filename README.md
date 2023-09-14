@@ -27,24 +27,21 @@ If the batteries were just powering the sram chip, they should last over a year.
 ## For TRS-80 Model 100
 
 <!-- PCB [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
-BOM [DigiKey](https://www.digikey.com/short/5zrjvjpw)  
+BOM [DigiKey](https://www.digikey.com/short/th54qq0p)  
 
-![](PCB/out/REXCPM_UPS_100_f.jpg)
-![](PCB/out/REXCPM_UPS_100_b.jpg)
-![](PCB/out/REXCPM_UPS_100_b_filled.jpg)
-![](PCB/out/REXCPM_UPS_100_batt_end.jpg)
-![](PCB/out/REXCPM_UPS_100_wire_end.jpg)
-![](PCB/out/REXCPM_UPS_100_top.jpg)
-![](PCB/out/REXCPM_UPS_100_bottom.jpg)
+![](PCB/out/REXCPM_UPS_100.f.jpg)
+![](PCB/out/REXCPM_UPS_100.b.jpg)
+![](PCB/out/REXCPM_UPS_100.top.jpg)
+![](PCB/out/REXCPM_UPS_100.bottom.jpg)
 ![](PCB/out/REXCPM_UPS_100.svg)
 
 ## For TANDY Model 102 and 200
 
 <!-- PCB [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
-BOM [DigiKey](https://www.digikey.com/short/90wmmfhv)  
+BOM [DigiKey](https://www.digikey.com/short/35h9821f)  
 
-![](PCB/out/REXCPM_UPS_102_200_f.jpg)
-![](PCB/out/REXCPM_UPS_102_200_b.jpg)
-![](PCB/out/REXCPM_UPS_102_200_top.jpg)
-![](PCB/out/REXCPM_UPS_102_200_bottom.jpg)
+![](PCB/out/REXCPM_UPS_102_200.f.jpg)
+![](PCB/out/REXCPM_UPS_102_200.b.jpg)
+![](PCB/out/REXCPM_UPS_102_200.top.jpg)
+![](PCB/out/REXCPM_UPS_102_200.bottom.jpg)
 ![](PCB/out/REXCPM_UPS_102_200.svg)
