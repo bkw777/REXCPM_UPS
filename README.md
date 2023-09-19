@@ -50,6 +50,10 @@ The 4 batteries are connected in parallel. You don't have to install all 4 batte
 
 ![](ref/100_3.jpg)
 ![](ref/100_4.jpg)
+![](ref/100_5.jpg)
+![](ref/100_6.jpg)
+![](ref/100_7.jpg)
+![](ref/100_8.jpg)
 ![](PCB/out/REXCPM_UPS_100.f.jpg)
 ![](PCB/out/REXCPM_UPS_100.b.jpg)
 ![](PCB/out/REXCPM_UPS_100.top.jpg)
@@ -69,6 +73,11 @@ Assembly notes:
 The polarity notch in the 40-pin connector points AWAY from the batteries. The PCB hangs *down* from the connector when installed on the computer.
 
 After installing the battery holders, flush-cut the solder tabs, add flux to the cut tabs, lay the board battery-side down on the work surface and press down in the center of the pcb with a spudger stick or bamboo skewer, and reflow the cut tabs into smooth flat domes.
+![](ref/200_1.jpg)
+![](ref/200_2.jpg)
+![](ref/200_3.jpg)
+![](ref/200_4.jpg)
+
 ![](PCB/out/REXCPM_UPS_102_200.f.jpg)
 ![](PCB/out/REXCPM_UPS_102_200.b.jpg)
 ![](PCB/out/REXCPM_UPS_102_200.top.jpg)
