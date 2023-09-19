@@ -29,7 +29,7 @@ Take a 25mm length of 23 gauge solid core wire (such as from some solid core eth
 Strip 3mm from one end and bend it 90 degrees.  
 Strip 6mm from the the other end.  
 Remove the REXCPM from the plastic carrier.  
-Insert the straight end of the wire between the large yellow capacitor and the 3 pins, with the short, bent end laying on the rear end of the big cap (the end without the stripe, at the rear end of the pcb), and the long/straight end pointing forward parallel to the 3 pins, sticking 6-8mm further foward than the 3 pins.  
+Insert the straight end of the wire between the large yellow capacitor and the 3 pins, with the short, bent end laying on the rear end of the big cap (the end without the stripe, at the rear end of the pcb), and the long/straight end pointing forward parallel to the 3 pins, sticking further foward than the 3 pins.  
 Solder the wire to the capacitor.  
 
 ### Installation
