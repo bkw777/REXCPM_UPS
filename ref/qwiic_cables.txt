@@ -1,0 +1,23 @@
+0.95 - 50mm qwiic sparkfun - flanges, white
+https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-14426/7652739
+
+50mm sparkfun
+https://www.sparkfun.com/products/17260
+
+
+
+1.56 - 100mm qwiic sparkfun - flanges, white
+https://www.digikey.com/en/products/detail/sparkfun-electronics/PRT-14427/7652740
+
+0.95 - 100mm qwiic adafruit - flanges, black
+https://www.digikey.com/en/products/detail/adafruit-industries-llc/4210/10230021
+
+1.80 - 12" jst - no flanges, white
+https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305B/6009394
+
+1.60 - 
+https://www.digikey.com/en/products/detail/sparkfun-electronics/CAB-17261/13629019
+
+
+Use with stock rexcpm
+https://www.digikey.com/en/products/detail/sparkfun-electronics/CAB-17261/13629019
