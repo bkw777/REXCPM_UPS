@@ -1,12 +1,17 @@
 # REXCPM UPS
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
+<!-- PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
+BOM for Model 100 [DigiKey](https://www.digikey.com/short/dnn9hqhb)  
+
+<!-- PCB for TANDY 102 & 200 [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
+BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/35h9821f)  
+
 ## For TRS-80 Model 100
+
 ![](ref/100_1.jpg)
 ![](ref/100_2.jpg)
 
-<!-- PCB [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
-BOM [DigiKey](https://www.digikey.com/short/dnn9hqhb)  
 
 ### Assembly Notes
 
@@ -65,8 +70,6 @@ The 4 batteries are connected in parallel. You don't have to install all 4 batte
 ![](ref/102_200_1.jpg)
 ![](ref/102_200_2.jpg)
 
-<!-- PCB [PCBWAY](https://www.pcbway.com/project/shareproject/)  -->
-BOM [DigiKey](https://www.digikey.com/short/35h9821f)  
 
 Assembly notes:
 
