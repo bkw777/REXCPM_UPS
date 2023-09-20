@@ -1,4 +1,7 @@
 # REXCPM UPS
+![](ref/REXCPM_UPS_100_1.jpg)
+![](ref/REXCPM_UPS_100_2.jpg)
+
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
 * Provides an on-board battery to preserve the contents of the REXCPM while not installed in a computer, or after the computers memory battery dies, or when the memory power switch is turned off.
