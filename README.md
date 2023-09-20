@@ -1,4 +1,4 @@
-# REXCPM UPS
+# REXCPM "UPS"
 ![](ref/REXCPM_UPS_100_1.jpg)
 ![](ref/REXCPM_UPS_100_2.jpg)
 
