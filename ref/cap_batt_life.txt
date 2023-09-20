@@ -1,3 +1,8 @@
+
+This is with the original version with 2 CR1025 cells and no GND connection.
+The REXCPM and bus board were not installed in the computer, and only the 3 original wires connected.
+The GND path is a backfeed leak via the RAM line through the NOR chip.
+
 start:
 Turn 100 on, then off, then remove from 100
 

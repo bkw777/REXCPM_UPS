@@ -12,10 +12,10 @@ REXCPM is a purely volatile SRAM device, which acts like all 3 of ROM and RAM an
 So this project provides a battery for the REXCPMs memory that does not rely on the host computer.
 
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
-BOM for Model 100 [DigiKey](https://www.digikey.com/short/dnn9hqhb)  
+BOM for Model 100 [DigiKey](https://www.digikey.com/short/wbhzt999)  
 
 <!-- PCB for TANDY 102 & 200 [PCBWAY]()-->  
-BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/35h9821f)  
+BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/3d149hpm)  
 
 Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
 
@@ -138,10 +138,26 @@ The height of the connector ends up exactly the same height as the top of the bi
 
 This is all very tiny to solder correctly, and somewhat fragile when done, and I do not propose this as a convenient practical way to use the battery board for most people.
 
-It does have a few good points though if you do manage to do it.  
-* The connection becomes fully polarity protected on both ends.  
-* The shortest 50mm (2 inch) qwiic cable is usable on Model 100 which is neater easier than the 150mm dupont breakout cable.  
-* The Model 102 & 200 become simple and convenient to use, since there is no pre-made dupont breakout cable long enough to connect to the original pins the way the 100 does, but there are pre-made qwiic or JST cables that are long enough.
+It does have a few good points though  
+* The connection becomes fully polarity protected on both ends. No risk of wiping out all your data from accidentally connecting the wrong wires even momentarily.  
+* The shortest 50mm (2 inch) qwiic cable is usable on Model 100 which is neater and easier than the 150mm dupont breakout cable.  
+* The Model 102 & 200 connection is better because there are pre-made single-piece 300mm cables.
+
+Cable for Model 100:
+[SparkFun 17260](https://www.sparkfun.com/products/17260)  
+[Adafruit 4399](https://www.adafruit.com/product/4399)  
+[JST A04SR04SR30K51A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K51A/6009374)  
+
+Cable for Model 102 or 200:  
+[SparkFun 17257](https://www.sparkfun.com/products/17257) - longer than necessary but available in stock  
+[JST A04SR04SR30K305A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305A/6009382) - ideal but not in stock  
+[Adafruit 5348](https://www.adafruit.com/product/5384) - not ideal because of the bulky jacket  
+[SparkFun 14429](https://www.sparkfun.com/products/14429) - older version of 17257 with less flexible wire  
+Another JST cable [JST A04SR04SR30K305B](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305B/6009394) (same part as above, but last digit is B) is available in stock but the only problem is the pinout is reversed. Since the JST cable wires are not crimped but just IDC (punched into U-shaped blades), it may be possible to peel the wires out of one connector, cut the mangled ends off, and punch them back into the connector in reversed order perhaps using a spudger.  
+
+Another option is to keep the [qwiic-to-female](https://www.sparkfun.com/products/17261) cable from the BOM, and add a matching [qwiic-to-male](https://www.sparkfun.com/products/17912) cable to that.
+
+DigiKey and Mouser and other resellers also carry the SparkFun And Adafruit parts, so you can probably get all parts in the same order with the BOM by searching the part numbers.
 
 ![](ref/qwiic_mod_1.jpg)
 ![](ref/qwiic_mod_2.jpg)
