@@ -129,3 +129,12 @@ It does have a few good points though if you do manage to do it.
 ![](ref/qwiic_mod_2.jpg)
 ![](ref/qwiic_mod_3.jpg)
 ![](ref/qwiic_mod_4.jpg)
+
+In Model 100  
+![](ref/qwiic_mod_100.jpg)
+
+In Model 102  
+![](ref/qwiic_mod_102.jpg)
+
+In Model 200  
+![](ref/qwiic_mod_200.jpg)
