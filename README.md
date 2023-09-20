@@ -1,11 +1,16 @@
 # REXCPM UPS
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
+* Provides an on-board battery to preserve the contents of the REXCPM while not installed in a computer, or after the computers memory battery dies, or when the memory power switch is turned off.
+* Allows using REXCPM on model 102 and 200 without modifying or even opening the computer.
+
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
 BOM for Model 100 [DigiKey](https://www.digikey.com/short/dnn9hqhb)  
 
 <!-- PCB for TANDY 102 & 200 [PCBWAY]()-->  
 BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/35h9821f)  
+
+Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
 
 ## For TRS-80 Model 100
 
@@ -15,43 +20,44 @@ BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/35h9821f)
 
 ### Assembly Notes
 
-Break the two rear walls off of 3 of the battery holders, so that a battery can pass all the way through the battery holder. The alloy that the battery holders are made of is brittle. If you try to fold the tabs up with pliers, they break right off clean right at the bend.
+Break the two rear walls off of 3 of the battery holders, so that a battery can pass all the way through the battery holder. The alloy that the battery holders are made of is brittle. If you try to fold the tabs up with pliers, they break right off clean right at the bend. Leave one battery holder intact! Install the open holders in BT1-BT3, install the intact holder in BT4.
 
-Optionally straighten the solder tabs on the battery holders before trying to install. If part of the tab breaks when you straighten it, it doesn't matter since you are going to flush-cut it after soldering anyway.  
-
-Leave 1 battery holder intact. Install the intact battery holder closest to the connector end (location BT4).
-
-Do the battery holders before doing the DIP pins, so that you can lay the board upside down on the work surface and push down in the center of thr pcb with a spudger, to hold all 4 battery holders fully inserted, even, and flat while soldering.
-
-There are two exposed vias at the rear of the BT4 footprint. These are for optional added mechanical reinforcenment of the rear walls of the last battery holder, since it takes a fair amount of force to push in all 4 batteries. It's not needed, but you can optionally solder 2 short bits of solid wire from those vias to the rear wall of the battery holder.
+Optional: There are two exposed vias at the rear of the BT4 footprint. These are for optional added mechanical reinforcenment of the rear walls of the last battery holder, since it takes a fair amount of force to push in all 4 batteries. It's not needed, but you can optionally solder 2 short bits of solid wire from those vias to the rear walls of the battery holder.
 
 After soldering the pins and battery holders, flush-cut everything on the top surface as flush to the pcb as you can, both the dip pins and the battery holders, then add flux and touch each cut post again to reflow them into smooth, flat domes.
 
-Optional modification to the REXCPM (at own risk obviously):
-First, warning: be very careful not to put any sideways strain on the 3 pins on the REXCPM while handling. The vias that the pins are soldered in to are weak and the pins break free and rotate very easily, and when they do, it breaks the connection to the very thin traces going to those pins. This has nothing to do with this mod. This can happen any time to any REXCPM using only the original parts.
+### GND Pin Mod
+This is optional but recommended for longest battery life while the REXCPM is not installed in a computer.
 
-Take a 25mm length of 23 gauge solid core wire (such as from some solid core ethernet cable, thermostat wire, doorbell wire, etc.).  
+First, warning: While working and handling the REXCPM in general, be very careful not to put any sideways strain on the 3 pins. The vias that the pins are soldered in to break free and rotate very easily, and when that happens, the connections to the traces break, and the REXCPM no longer works. This has nothing to do with this mod. This can happen any time to any REXCPM, but while doing this work you are more likely to push sideways on the pins than when simply installing the normal cable.  
+If this happens, the situation is still salvagable. See the below for the qwiic connector mod.
+
+Cut a 25mm length of 23awg (0.6mm) solid insulated wire.  
 Strip 3mm from one end and bend it 90 degrees.  
 Strip 6mm from the the other end.  
 Remove the REXCPM from the plastic carrier.  
-Insert the straight end of the wire between the large yellow capacitor and the 3 pins, with the short, bent end laying on the rear end of the big cap (the end without the stripe, at the rear end of the pcb), and the long/straight end pointing forward parallel to the 3 pins, sticking further foward than the 3 pins.  
+Insert the straight end of the wire between the large yellow capacitor and the 3 pins (not over top of the cap, it must be to the side and below the top surface of the cap), with the short, bent end laying on the rear end of the big cap (the end without the stripe, at the rear end of the pcb), and the long/straight end pointing forward like the 3 pins, but further forward.  
 Solder the wire to the capacitor.  
 
 ### Installation
 Connect the 4 female Dupont wires to the REXCPM like this:
 
-black  (GND)     ->  wire on cap  
+black  (GND)     ->  gnd pin mod  
 red    (/WR)     ->  pin closest to cap  
 blue   (RAM)     ->  middle pin  
 yellow (RAM_RST) ->  pin furthest from cap
 
-Make sure the GND wire is bent a little away from the other 3 pins so that the GND wire does not press against the side the nearest pin at all. When all 4 wires are connected, the 3 pins connectors should touch each other, but the GND wire should not touch the other 3. This is to avoid risking the pins rotating and breaking the PCB traces that connect to them.
+Make sure the GND wire is bent a little away from the other 3 pins so that the GND wire does not press against the side the nearest pin. When all 4 wires are connected, the 3 pins connectors should touch each other, but the GND wire should not touch the other 3. This is just to ensure the gnd wire can not be pressing sideways on the pins at all.
 
-If you did not install the GND wire on the cap, just leave the black wire unconnected to anything. In this case, the batteries will still retain the REXCPM memory, but not for as long while the REXCPM is removed from the computer. While the REXCPM is installed in the computer there is a GND connection between the 2 boards through the computer, and the additional GND wire doesn't make any difference. While the REXCPM is removed from the computer, there is no proper GND connection between the 2 boards, but there is a "backfeed" or "leak" via the RAM wire, and the REXCPM still gets enough power from the batteries to keep the memory alive. However it is not a good connection and the REXCPM memory will not be preserved for as long this way. The exact life time is not known yet, but may be as little asa few days. If you will remove the REXCPM for more than a few days, you should install the GND wire. If you will leave the REXCPM installed most of the time, and just want the "ups" to cover when the 100's internal battery dies on the shelf, the extra GND wire isn't strictly needed.
+If you did not do the gnd pin mod, then just leave the black wire unconnected to anything. In this case, the batteries will still retain the REXCPM memory when the computers memory battery dies or the memory switch is turned off, but if the REXCPM is removed from the computer, the memory in the REXCPM may only last a few days. (it may last longer, the time is not known)
 
-With 4 new batteries installed and the optional GND wire installed (or with the REXCPM always installed in the Model 100 which also provides a GND connection) then the REXCPM memory should last at least 2 years after the Model 100's internal memory battery dies. This is just an estimate based on measured current drain and the rated capacity of the batteries.
+While the REXCPM is installed in the computer there is a GND connection between the 2 boards through the computer, and the additional GND wire doesn't make any difference, and not having it doesn't hurt.
 
-The 4 batteries are connected in parallel. You don't have to install all 4 battery holders and don't have to install all 4 batteries. You can install as little as a single battery or 2 or 3 or 4. You just get more or less shelf life. Each button cell equates to about 6 months of protection, estimated. This is in addition to the 100's internal battery. The "clock" doesn't start counting until the 100's internal memory battery dies.
+While the REXCPM is removed from the computer, there is no proper GND connection between the 2 boards, but there is a backfeed leak via the RAM wire, and the REXCPM still gets enough power from the batteries to keep the memory alive. However it is not a good connection and the REXCPM memory will not be preserved for as long this way. The exact life time is not known yet, but may be as little as a few days. If you want to be able to remove the REXCPM without counting the hours, you should install the GND pin. If you will leave the REXCPM installed most of the time, and just want the "UPS" to cover when the computers internal battery dies or is turned off, then the extra GND connection isn't strictly needed. You can even still remove the REXCPM, just not for 2 years.
+
+With 4 new batteries installed and the optional GND wire installed (or with the REXCPM always installed in the computer) then the REXCPM memory should last at least 2 years after the computers internal memory battery dies. This is just an estimate based on measured current drain and the rated capacity of the batteries.
+
+The 4 batteries are connected in parallel. You don't have to install all 4 battery holders and don't have to install all 4 batteries. You can install as little as a single battery. You just get more or less shelf life. Each button cell provides about 6 months of memory retention, estimated. This is in addition to the computers internal battery which can last anywhere from a few weeks to several months. The "clock" on the button cell batteries doesn't start counting until the computers internal memory battery dies.
 
 ![](ref/100_3.jpg)
 ![](ref/100_4.jpg)
