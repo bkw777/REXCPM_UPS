@@ -32,8 +32,8 @@ Add a 4th pin to the REXCPM for GND.
 
 This is optional but easy and recommended for longest battery life while the REXCPM is not installed in a computer.
 
-First, warning: While working and handling the REXCPM in general, be very careful not to put any sideways strain on the 3 pins. The vias that the pins are soldered in to break free and rotate very easily, and when that happens, the connections to the traces break, and the REXCPM no longer works. This has nothing to do with this mod. This can happen any time to any REXCPM, but while doing this work you are more likely to push sideways on the pins than when simply installing the normal cable.  
-If this happens, the situation is still salvagable. See the below for the qwiic connector mod.
+First, warning: While working and handling the REXCPM in general, be very careful not to put any sideways strain on the 3 pins. The vias that the pins are soldered into break free and rotate very easily, and breaks the connections to their traces. This has nothing to do with this mod. This can happen any time to any REXCPM, but while doing this work you are more likely to push sideways on the pins than when simply installing the original jumper cable.  
+If this happens the situation is still salvagable, see below for the qwiic connector mod.
 
 Cut a 25mm length of 23awg (0.6mm) solid insulated wire.  
 Strip 3mm from one end and bend it 90 degrees.  
