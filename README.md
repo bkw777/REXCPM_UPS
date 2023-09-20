@@ -140,7 +140,7 @@ Another JST cable [JST A04SR04SR30K305B](https://www.digikey.com/en/products/det
 
 Another option is to keep the [qwiic-to-female cable](https://www.sparkfun.com/products/17261) from the BOM, and add a matching [qwiic-to-male cable](https://www.sparkfun.com/products/17912) to that.
 
-DigiKey and Mouser and other resellers also carry the SparkFun And Adafruit parts, so you can probably get all parts on the same order with the BOM by searching the part numbers.
+DigiKey and Mouser and other resellers also carry the SparkFun and Adafruit parts, so you can probably get all parts on the same order with the BOM by searching the part numbers.
 
 ![](ref/qwiic_mod_1.jpg)
 ![](ref/qwiic_mod_2.jpg)
