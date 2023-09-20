@@ -5,7 +5,7 @@
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
 * Provides an on-board battery to preserve the contents of the REXCPM while not installed in a computer, or after the computers memory battery dies, or when the memory power switch is turned off.
-* Allows using REXCPM on model 102 and 200 without modifying the computer.
+* Allows using REXCPM on model 102 without modifying the computer.
 
 REXCPM is a purely volatile SRAM device, which acts like all 3 of ROM and RAM and DISK. It holds a lot of virtual firmware, rom images, ram image backups, live/working ram, and a disk image for CP/M which holds up to 4 MB of your programs and data, all only in volatile ram.
 
@@ -14,8 +14,8 @@ So this project provides a battery for the REXCPMs memory that does not rely on 
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
 BOM for Model 100 [DigiKey](https://www.digikey.com/short/wbhzt999)  
 
-<!-- PCB for TANDY 102 & 200 [PCBWAY]()-->  
-BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/3d149hpm)  
+<!-- PCB for TANDY 102 [PCBWAY]()-->  
+BOM for TANDY 102 [DigiKey](https://www.digikey.com/short/3d149hpm)  
 
 Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
 
@@ -86,42 +86,24 @@ The 4 batteries are connected in parallel. You don't have to install all 4 batte
 ![](PCB/out/REXCPM_UPS_100.svg)
 
 
-## For TANDY Model 102 and 200
-![](ref/102_200_1.jpg)
-![](ref/102_200_2.jpg)
-
+## For TANDY Model 102
+![](ref/102_1.jpg)
+![](ref/102_2.jpg)
+![](ref/102_3.jpg)
 
 Assembly notes:
 
 The polarity notch in the 40-pin connector points AWAY from the batteries. The PCB hangs *down* from the connector when installed on the computer.
 
 After installing the battery holders, flush-cut the solder tabs, add flux to the cut tabs, lay the board battery-side down on the work surface and press down in the center of the pcb with a spudger stick or bamboo skewer, and reflow the cut tabs into smooth flat domes.
-![](ref/200_1.jpg)
-![](ref/200_2.jpg)
 
-![](PCB/out/REXCPM_UPS_102_200.f.jpg)
-![](PCB/out/REXCPM_UPS_102_200.b.jpg)
-![](PCB/out/REXCPM_UPS_102_200.top.jpg)
-![](PCB/out/REXCPM_UPS_102_200.bottom.jpg)
-![](PCB/out/REXCPM_UPS_102_200.svg)
+![](PCB/out/REXCPM_UPS_102.f.jpg)
+![](PCB/out/REXCPM_UPS_102.b.jpg)
+![](PCB/out/REXCPM_UPS_102.top.jpg)
+![](PCB/out/REXCPM_UPS_102.bottom.jpg)
+![](PCB/out/REXCPM_UPS_102.svg)
 
-
-## goals  
-* battery to keep the REXCPM sram powered while out of the 100 or when the 100's batteries die  
-* simpler more convenient standard round pins, simpler to repair  
-* more robust all 40 pins instead of delicate single unsupported pins without neighbors  
-* more pins -> more friction -> more secure installation  
-  also the pins are fatter -> more friction, which is ok in this case because the socket has round pin sockets not flat leaf type  
-* parts on bottom in the space created by the tall shoulders of the generic pin headers  
-* appearance, pin-1 notch matching the socket, etc
-
-### status
-
-Latest revision with qwiic connector is good for the Model 100 version, but not as convenient for the 102/200 version, because there is not a pre-made cable with dupont sockets that's long enough.  
-You would have to add 4 short male-female dupont extensions, which is ok but not ideal.
-
-Go to the end of this photo album for the latest pics.  
-https://photos.app.goo.gl/i87E4wzimexCR3wL6
+More pics: https://photos.app.goo.gl/i87E4wzimexCR3wL6
 
 ## qwiic mod
 
@@ -148,7 +130,7 @@ Cable for Model 100:
 [Adafruit 4399](https://www.adafruit.com/product/4399)  
 [JST A04SR04SR30K51A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K51A/6009374)
 
-Cable for Model 102 or 200:  
+Cable for Model 102:  
 [SparkFun 17257](https://www.sparkfun.com/products/17257) - longer than necessary but available in stock  
 [JST A04SR04SR30K305A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305A/6009382) - ideal but not in stock  
 [Adafruit 5348](https://www.adafruit.com/product/5384) - not ideal because of the bulky jacket  
@@ -169,6 +151,3 @@ In Model 100
 
 In Model 102  
 ![](ref/qwiic_mod_102.jpg)
-
-In Model 200  
-![](ref/qwiic_mod_200.jpg)
