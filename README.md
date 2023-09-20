@@ -2,7 +2,7 @@
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
 * Provides an on-board battery to preserve the contents of the REXCPM while not installed in a computer, or after the computers memory battery dies, or when the memory power switch is turned off.
-* Allows using REXCPM on model 102 and 200 without modifying or even opening the computer.
+* Allows using REXCPM on model 102 and 200 without modifying the computer.
 
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
 BOM for Model 100 [DigiKey](https://www.digikey.com/short/dnn9hqhb)  
