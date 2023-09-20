@@ -123,7 +123,7 @@ This is all very tiny to solder correctly, and somewhat fragile when done, and I
 It does have a few good points though  
 * The connection becomes fully polarity protected on both ends. No risk of wiping out all your data from accidentally connecting the wrong wires even momentarily.  
 * The shortest 50mm (2 inch) qwiic cable is usable on Model 100 which is neater and easier than the 150mm dupont breakout cable.  
-* The Model 102 & 200 connection is better because there are pre-made single-piece 300mm cables.
+* The Model 102 connection is better because there are pre-made single-piece 300mm cables.
 
 Cable for Model 100:  
 [SparkFun 17260](https://www.sparkfun.com/products/17260)  
