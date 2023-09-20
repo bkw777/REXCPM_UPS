@@ -4,6 +4,10 @@ System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?ti
 * Provides an on-board battery to preserve the contents of the REXCPM while not installed in a computer, or after the computers memory battery dies, or when the memory power switch is turned off.
 * Allows using REXCPM on model 102 and 200 without modifying the computer.
 
+REXCPM is a purely volatile SRAM device, which acts like all 3 of ROM and RAM and DISK. It holds a lot of virtual firmware, rom images, ram image backups, live/working ram, and a disk image for CP/M which holds up to 4 MB of your programs and data, all only in volatile ram.
+
+So this project provides a battery for the REXCPMs memory that does not rely on the host computer.
+
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
 BOM for Model 100 [DigiKey](https://www.digikey.com/short/dnn9hqhb)  
 
@@ -11,6 +15,8 @@ BOM for Model 100 [DigiKey](https://www.digikey.com/short/dnn9hqhb)
 BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/35h9821f)  
 
 Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
+
+PCB ordering notes: If you want the battery terminals to be gold plated, choose ENIG finish when ordering the PCBs. The link above is only for PCBWAY because they have a convenient way to share a pre-loaded link like OSHPark has, except cheaper, faster, and with a fully cleanly cut board outline with no panelization tabs that still need to be sanded down. However PCBWAY is the more expensive when you add ENIG. If you take the gerber zip from [releases](../releases), both Elecrow and JLCPCB are equivalent quality and speed but don't charge as much extra for ENIG, and OSHPark is always ENIG.
 
 ## For TRS-80 Model 100
 
