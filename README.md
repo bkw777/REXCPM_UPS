@@ -55,6 +55,9 @@ Remove the REXCPM from the plastic carrier.
 Insert the straight end of the wire between the large yellow capacitor and the 3 pins (not over top of the cap, it must be to the side and below the top surface of the cap), with the short, bent end laying on the rear end of the big cap (the end without the stripe, at the rear end of the pcb), and the long/straight end pointing forward like the 3 pins, but further forward.  
 Solder the wire to the capacitor.  
 
+![](ref/gnd_pin_mod_1.jpg)
+![](ref/gnd_pin_mod_2.jpg)
+
 ### Installation
 Connect the 4 female Dupont wires to the REXCPM like this:
 
@@ -77,8 +80,6 @@ The 4 batteries are connected in parallel. You don't have to install all 4 batte
 
 ![](ref/100_5.jpg)
 ![](ref/100_6.jpg)
-![](ref/100_7.jpg)
-![](ref/100_8.jpg)
 ![](PCB/out/REXCPM_UPS_100.f.jpg)
 ![](PCB/out/REXCPM_UPS_100.b.jpg)
 ![](PCB/out/REXCPM_UPS_100.top.jpg)
