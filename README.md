@@ -1,6 +1,6 @@
 # REXCPM "UPS"
-![](ref/REXCPM_UPS_100_1.jpg)
-![](ref/REXCPM_UPS_100_2.jpg)
+![](ref/100_3.jpg)
+![](ref/100_4.jpg)
 
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
@@ -75,8 +75,6 @@ With 4 new batteries installed and the optional GND wire installed (or with the 
 
 The 4 batteries are connected in parallel. You don't have to install all 4 battery holders and don't have to install all 4 batteries. You can install as little as a single battery. You just get more or less shelf life. Each button cell provides about 6 months of memory retention, estimated. This is in addition to the computers internal battery which can last anywhere from a few weeks to several months. The "clock" on the button cell batteries doesn't start counting until the computers internal memory battery dies.
 
-![](ref/100_3.jpg)
-![](ref/100_4.jpg)
 ![](ref/100_5.jpg)
 ![](ref/100_6.jpg)
 ![](ref/100_7.jpg)
@@ -100,8 +98,6 @@ The polarity notch in the 40-pin connector points AWAY from the batteries. The P
 After installing the battery holders, flush-cut the solder tabs, add flux to the cut tabs, lay the board battery-side down on the work surface and press down in the center of the pcb with a spudger stick or bamboo skewer, and reflow the cut tabs into smooth flat domes.
 ![](ref/200_1.jpg)
 ![](ref/200_2.jpg)
-![](ref/200_3.jpg)
-![](ref/200_4.jpg)
 
 ![](PCB/out/REXCPM_UPS_102_200.f.jpg)
 ![](PCB/out/REXCPM_UPS_102_200.b.jpg)
