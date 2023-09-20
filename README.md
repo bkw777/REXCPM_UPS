@@ -49,7 +49,7 @@ First, warning: While working and handling the REXCPM in general, be very carefu
 If this happens the situation is still salvagable, see below for the qwiic connector mod.
 
 Cut a 25mm length of 23awg (0.6mm) solid insulated wire.  
-Strip 3mm from one end and bend it 90 degrees.  
+Strip 4mm from one end and bend it 90 degrees.  
 Strip 6mm from the the other end.  
 Remove the REXCPM from the plastic carrier.  
 Insert the straight end of the wire between the large yellow capacitor and the 3 pins (not over top of the cap, it must be to the side and below the top surface of the cap), with the short, bent end laying on the rear end of the big cap (the end without the stripe, at the rear end of the pcb), and the long/straight end pointing forward like the 3 pins, but further forward.  
