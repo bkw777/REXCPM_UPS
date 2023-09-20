@@ -20,7 +20,7 @@ Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg
 
 ### Assembly Notes
 
-Break the two rear walls off of 3 of the battery holders, so that a battery can pass all the way through the battery holder. The alloy that the battery holders are made of is brittle. If you try to fold the tabs up with pliers, they break right off clean right at the bend. Leave one battery holder intact! Install the open holders in BT1-BT3, install the intact holder in BT4.
+Break the two rear walls off of 3 of the battery holders, so that a battery can pass all the way through the battery holder. The alloy that the battery holders are made of is brittle. When you try to bend the tabs up with pliers, they break off pretty clean right at the bend. Leave one battery holder intact. Install the open holders in BT1-BT3, install the intact holder in BT4.
 
 Optional: There are two exposed vias at the rear of the BT4 footprint. These are for optional added mechanical reinforcenment of the rear walls of the last battery holder, since it takes a fair amount of force to push in all 4 batteries. It's not needed, but you can optionally solder 2 short bits of solid wire from those vias to the rear walls of the battery holder.
 
