@@ -19,7 +19,11 @@ BOM for TANDY 102 & 200 [DigiKey](https://www.digikey.com/short/3d149hpm)
 
 Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
 
-PCB ordering notes: If you want the battery terminals to be gold plated, choose ENIG finish when ordering the PCBs. The link above is only for PCBWAY because they have a convenient way to share a pre-loaded link like OSHPark has, except cheaper, faster, and with a fully cleanly cut board outline with no panelization tabs that still need to be sanded down. However PCBWAY is the more expensive when you add ENIG. If you take the gerber zip from [releases](../../releases), both Elecrow and JLCPCB are equivalent quality and speed but don't charge as much extra for ENIG, and OSHPark is always ENIG.
+PCB ordering notes: If you want the battery terminals to be gold plated, choose ENIG finish when ordering the PCBs. The link above is only for PCBWAY because they have a convenient way to share a pre-loaded link like OSHPark has, except cheaper, faster, and with a fully cleanly cut board outline with no panelization tabs that still need to be sanded down. However PCBWAY is more expensive when you add ENIG. You can take the gerber zip from [releases](../../releases), and both Elecrow and JLCPCB are equivalent quality and speed but don't charge as much extra for ENIG, and OSHPark is always ENIG. OSHPark can also directly accept the kicad_pcb file instead of the gerber zip.
+
+Black versions of the qwiic connector may or may not be available from digikey/mouser etc at any given time, so the BOM has the natural color one. But for reference:  
+https://www.sparkfun.com/products/14417  
+https://www.adafruit.com/product/4208  
 
 ## For TRS-80 Model 100
 
@@ -143,21 +147,21 @@ It does have a few good points though
 * The shortest 50mm (2 inch) qwiic cable is usable on Model 100 which is neater and easier than the 150mm dupont breakout cable.  
 * The Model 102 & 200 connection is better because there are pre-made single-piece 300mm cables.
 
-Cable for Model 100:
+Cable for Model 100:  
 [SparkFun 17260](https://www.sparkfun.com/products/17260)  
 [Adafruit 4399](https://www.adafruit.com/product/4399)  
-[JST A04SR04SR30K51A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K51A/6009374)  
+[JST A04SR04SR30K51A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K51A/6009374)
 
 Cable for Model 102 or 200:  
 [SparkFun 17257](https://www.sparkfun.com/products/17257) - longer than necessary but available in stock  
 [JST A04SR04SR30K305A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305A/6009382) - ideal but not in stock  
 [Adafruit 5348](https://www.adafruit.com/product/5384) - not ideal because of the bulky jacket  
 [SparkFun 14429](https://www.sparkfun.com/products/14429) - older version of 17257 with less flexible wire  
-Another JST cable [JST A04SR04SR30K305B](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305B/6009394) (same part as above, but last digit is B) is available in stock but the only problem is the pinout is reversed. Since the JST cable wires are not crimped but just IDC (punched into U-shaped blades), it may be possible to peel the wires out of one connector, cut the mangled ends off, and punch them back into the connector in reversed order perhaps using a spudger.  
+Another JST cable [JST A04SR04SR30K305B](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K305B/6009394) (same part as above, but last digit is B) is available in stock but the only problem is the pinout is reversed. Since the JST cable wires are not crimped but just IDC (punched into U-shaped blades), it may be possible to peel the wires out of one connector, cut the mangled ends off, and punch them back into the connector in reversed order, perhaps using a spudger.  
 
-Another option is to keep the [qwiic-to-female](https://www.sparkfun.com/products/17261) cable from the BOM, and add a matching [qwiic-to-male](https://www.sparkfun.com/products/17912) cable to that.
+Another option is to keep the [qwiic-to-female cable](https://www.sparkfun.com/products/17261) from the BOM, and add a matching [qwiic-to-male cable](https://www.sparkfun.com/products/17912) to that.
 
-DigiKey and Mouser and other resellers also carry the SparkFun And Adafruit parts, so you can probably get all parts in the same order with the BOM by searching the part numbers.
+DigiKey and Mouser and other resellers also carry the SparkFun And Adafruit parts, so you can probably get all parts on the same order with the BOM by searching the part numbers.
 
 ![](ref/qwiic_mod_1.jpg)
 ![](ref/qwiic_mod_2.jpg)
