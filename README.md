@@ -27,7 +27,10 @@ Optional: There are two exposed vias at the rear of the BT4 footprint. These are
 After soldering the pins and battery holders, flush-cut everything on the top surface as flush to the pcb as you can, both the dip pins and the battery holders, then add flux and touch each cut post again to reflow them into smooth, flat domes.
 
 ### GND Pin Mod
-This is optional but recommended for longest battery life while the REXCPM is not installed in a computer.
+
+Add a 4th pin to the REXCPM for GND.
+
+This is optional but easy and recommended for longest battery life while the REXCPM is not installed in a computer.
 
 First, warning: While working and handling the REXCPM in general, be very careful not to put any sideways strain on the 3 pins. The vias that the pins are soldered in to break free and rotate very easily, and when that happens, the connections to the traces break, and the REXCPM no longer works. This has nothing to do with this mod. This can happen any time to any REXCPM, but while doing this work you are more likely to push sideways on the pins than when simply installing the normal cable.  
 If this happens, the situation is still salvagable. See the below for the qwiic connector mod.
