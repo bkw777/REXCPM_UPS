@@ -109,18 +109,21 @@ https://photos.app.goo.gl/i87E4wzimexCR3wL6
 
 This is not really practical because of how tiny the wires and solder points are, but the traces to the original pins on my REXCPM broke so I had to do some sort of repair with bodge wires anyway, so, IF you wanted to and are up to the fine soldering, then here are the connections to install a "qwiic" connector (JST-SH 04 male horizontal smt) onto the REXCPM.
 
-The qwiic connector is one of the black Adafruit ones instead of the natural DigiKey ones, to hopefully stick better to the glue. The material feels a little different and also feels like it has glass filler so it has more texture, especially when scraped with a knife or sanded. I scuffed the bottom surface before gluing.  
-It is glued bottom-down (pins down, as if soldering to a pcb) on top of one of the 4245 chips with a drop of super-glue, with the pins hanging in free air off the edge of the chip. This way the pins are at no risk of touching anything on the pcb.  
-The wire is 30awg wire-wrapping wire. You could use any fine gauge solid insulated wire like winding wire.  
+The qwiic connector is one of the black ones like Adafruit or SparkFun has instead of the natural colored ones Digikey and Mouser has,  
+https://www.sparkfun.com/products/14417  
+to hopefully stick better to the glue. The material feels different and also feels like it has glass filler so it has more texture, especially when scraped with a knife or sanded. I scuffed the bottom surface before gluing.  
+The connector is glued bottom-down (pins down, as if soldering to a pcb) on top of one of the 4245 chips with super-glue, with the pins hanging off the edge of the chip in free air. This way the pins are at no risk of touching anything on the pcb, and the cable connector is unobstructed for inserting & removing.
+
+The wire is 30awg wire-wrapping wire. You could use any fine gauge solid insulated wire like winding wire.
 
 The height of the connector ends up exactly the same height as the top of the big capacitor, and does fit under the compartment door.
 
-This is all very tiny to solder correctly, and somewhat fragile when done, and I do not propose this as a convenient practical way to use the battery board for most people.  
+This is all very tiny to solder correctly, and somewhat fragile when done, and I do not propose this as a convenient practical way to use the battery board for most people.
 
 It does have a few good points though if you do manage to do it.  
-- The connection becomes fully polarity protected on both ends.  
-- The shortest 50mm (2 inch) qwiic cable is usable on Model 100 which is neater easier than the 150mm dupont breakout cable.  
-- The 102 & 200 become simple and convenient to use, since there is no pre-made dupont breakout cable long enough to connect to the original pins the way the 100 does, but there are simple pre-made qwiic or JST cables that are long enough.
+* The connection becomes fully polarity protected on both ends.  
+* The shortest 50mm (2 inch) qwiic cable is usable on Model 100 which is neater easier than the 150mm dupont breakout cable.  
+* The Model 102 & 200 become simple and convenient to use, since there is no pre-made dupont breakout cable long enough to connect to the original pins the way the 100 does, but there are pre-made qwiic or JST cables that are long enough.
 
 ![](ref/qwiic_mod_1.jpg)
 ![](ref/qwiic_mod_2.jpg)
