@@ -50,7 +50,7 @@ red    (/WR)     ->  pin closest to cap
 blue   (RAM)     ->  middle pin  
 yellow (RAM_RST) ->  pin furthest from cap
 
-Make sure the GND wire is bent a little away from the other 3 pins so that the GND wire does not press against the side the nearest pin. When all 4 wires are connected, the 3 pins connectors should touch each other, but the GND wire should not touch the other 3. This is just to ensure the gnd wire can not be pressing sideways on the pins at all.
+Make sure the GND wire is bent a little away and not touching the other 3 pins, just to ensure it can't be putting any sideways pressure on them.
 
 If you did not do the gnd pin mod, then just leave the black wire unconnected to anything. In this case, the batteries will still retain the REXCPM memory when the computers memory battery dies or the memory switch is turned off, but if the REXCPM is removed from the computer, the memory in the REXCPM may only last a few days. (it may last longer, the time is not known)
 
