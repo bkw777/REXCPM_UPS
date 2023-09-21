@@ -104,6 +104,8 @@ With 4 new batteries installed and the optional GND wire installed (or with the 
 
 The 4 batteries are connected in parallel. You don't have to install all 4 battery holders and don't have to install all 4 batteries. You can install as little as a single battery. You just get more or less shelf life. Each button cell provides about 6 months of memory retention, estimated. This is in addition to the computers internal battery which can last anywhere from a few weeks to several months. The "clock" on the button cell batteries doesn't start counting until the computers internal memory battery dies.
 
+It's tricky to get the batteries back out. The main difficulty is just the spring clip pressure tabs in the holders act like one-way ratchets that allow cells to pass in one direction but catch on the edge of the cell in the other direction. The simplest way to get the batteries out is just ensure all the cells are touching each other while poking the stack out with a toothpick from BT4. If there is no gap between two cells when they pass under a clip, the clip is more likely to pas from one cell to the next instead of catching on the trailing cell. You may still need to wiggle things to cause the cells to tip a little in different directions while pushing out.
+
 ![](ref/100_2.jpg)
 
 
