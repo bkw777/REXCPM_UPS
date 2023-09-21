@@ -1,6 +1,7 @@
 # REXCPM "UPS"
 ![](ref/100_3.jpg)
-![](ref/100_4.jpg)
+![](ref/100_4.jpg)  
+More pics: https://photos.app.goo.gl/i87E4wzimexCR3wL6
 
 System bus interface board for [REXCPM](https://bitchin100.com/wiki/index.php?title=REXCPM) with on-board batteries.
 
@@ -11,11 +12,13 @@ REXCPM is a purely volatile SRAM device, which acts like all 3 of ROM and RAM an
 
 So this project provides a battery for the REXCPMs memory that does not rely on the host computer.
 
+Even without this auxilliary battery, the REXCPM does have up to 15 minutes of memory retention built-in (depending on starting voltage, 5v from wall power or good batteries, 2v from dead batteries, etc), so the REXCPM can always be disconnected from power at least briefly, to transfer from one machine to another or to change batteries or to turn off the computers memory power switch to force a reset etc.
+
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
 BOM for Model 100 [DigiKey](https://www.digikey.com/short/wbhzt999)  
 
 <!-- PCB for TANDY 102 [PCBWAY]()-->  
-BOM for TANDY 102 [DigiKey](https://www.digikey.com/short/3d149hpm)  
+BOM for Model 102 [DigiKey](https://www.digikey.com/short/3d149hpm)  
 
 Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
 
@@ -28,8 +31,13 @@ https://www.adafruit.com/product/4208
 ## For TRS-80 Model 100
 
 ![](ref/100_1.jpg)
-![](ref/100_2.jpg)
-
+![](ref/100_5.jpg)
+![](ref/100_6.jpg)
+![](PCB/out/REXCPM_UPS_100.f.jpg)
+![](PCB/out/REXCPM_UPS_100.b.jpg)
+![](PCB/out/REXCPM_UPS_100.top.jpg)
+![](PCB/out/REXCPM_UPS_100.bottom.jpg)
+![](PCB/out/REXCPM_UPS_100.svg)
 
 ### Assembly Notes
 
@@ -39,7 +47,24 @@ Optional: There are two exposed vias at the rear of the BT4 footprint. These are
 
 After soldering the pins and battery holders, flush-cut everything on the top surface as flush to the pcb as you can, both the dip pins and the battery holders, then add flux and touch each cut post again to reflow them into smooth, flat domes.
 
-### GND Pin Mod
+## For TANDY Model 102
+![](ref/102_1.jpg)
+![](ref/102_2.jpg)
+![](ref/102_3.jpg)
+![](PCB/out/REXCPM_UPS_102.f.jpg)
+![](PCB/out/REXCPM_UPS_102.b.jpg)
+![](PCB/out/REXCPM_UPS_102.top.jpg)
+![](PCB/out/REXCPM_UPS_102.bottom.jpg)
+![](PCB/out/REXCPM_UPS_102.svg)
+
+### Assembly Notes
+
+The polarity notch in the 40-pin connector points AWAY from the batteries. The PCB hangs *down* from the connector when installed on the computer.
+
+After installing the battery holders, flush-cut the solder tabs, add flux to the cut tabs, lay the board battery-side down on the work surface and press down in the center of the pcb with a spudger stick or bamboo skewer, and reflow the cut tabs into smooth flat domes.
+
+
+## GND Pin Mod
 
 Add a 4th pin to the REXCPM for GND.
 
@@ -58,7 +83,8 @@ Solder the wire to the capacitor.
 ![](ref/gnd_pin_mod_1.jpg)
 ![](ref/gnd_pin_mod_2.jpg)
 
-### Installation
+
+## Installation
 Connect the 4 female Dupont wires to the REXCPM like this:
 
 black  (GND)     ->  gnd pin mod  
@@ -78,35 +104,10 @@ With 4 new batteries installed and the optional GND wire installed (or with the 
 
 The 4 batteries are connected in parallel. You don't have to install all 4 battery holders and don't have to install all 4 batteries. You can install as little as a single battery. You just get more or less shelf life. Each button cell provides about 6 months of memory retention, estimated. This is in addition to the computers internal battery which can last anywhere from a few weeks to several months. The "clock" on the button cell batteries doesn't start counting until the computers internal memory battery dies.
 
-![](ref/100_5.jpg)
-![](ref/100_6.jpg)
-![](PCB/out/REXCPM_UPS_100.f.jpg)
-![](PCB/out/REXCPM_UPS_100.b.jpg)
-![](PCB/out/REXCPM_UPS_100.top.jpg)
-![](PCB/out/REXCPM_UPS_100.bottom.jpg)
-![](PCB/out/REXCPM_UPS_100.svg)
+![](ref/100_2.jpg)
 
 
-## For TANDY Model 102
-![](ref/102_1.jpg)
-![](ref/102_2.jpg)
-![](ref/102_3.jpg)
-
-Assembly notes:
-
-The polarity notch in the 40-pin connector points AWAY from the batteries. The PCB hangs *down* from the connector when installed on the computer.
-
-After installing the battery holders, flush-cut the solder tabs, add flux to the cut tabs, lay the board battery-side down on the work surface and press down in the center of the pcb with a spudger stick or bamboo skewer, and reflow the cut tabs into smooth flat domes.
-
-![](PCB/out/REXCPM_UPS_102.f.jpg)
-![](PCB/out/REXCPM_UPS_102.b.jpg)
-![](PCB/out/REXCPM_UPS_102.top.jpg)
-![](PCB/out/REXCPM_UPS_102.bottom.jpg)
-![](PCB/out/REXCPM_UPS_102.svg)
-
-More pics: https://photos.app.goo.gl/i87E4wzimexCR3wL6
-
-## qwiic mod
+## Qwiic Mod
 
 This is not really practical because of how tiny the wires and solder points are, but the traces to the original pins on my REXCPM broke so I had to do some sort of repair with bodge wires anyway, so, IF you wanted to and are up to the fine soldering, then here are the connections to install a "qwiic" connector (JST-SH 04 male horizontal smt) onto the REXCPM.
 
