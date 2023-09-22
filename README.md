@@ -15,10 +15,10 @@ So this project provides a battery for the REXCPMs memory that does not rely on 
 Even without this auxilliary battery, the REXCPM does have up to 15 minutes of memory retention built-in (depending on starting voltage, 5v from wall power or good batteries, 2v from dead batteries, etc), so the REXCPM can always be disconnected from power at least briefly, to transfer from one machine to another or to change batteries or to turn off the computers memory power switch to force a reset etc.
 
 PCB for Model 100 [PCBWAY](https://www.pcbway.com/project/shareproject/Batteries_for_REXCPM_331c0add.html)  
-BOM for Model 100 [DigiKey](https://www.digikey.com/short/wbhzt999)  
+BOM for Model 100 [DigiKey](https://www.digikey.com/short/21zq7m5n)  
 
 <!-- PCB for TANDY 102 [PCBWAY]()-->  
-BOM for Model 102 [DigiKey](https://www.digikey.com/short/3d149hpm)  
+BOM for Model 102 [DigiKey](https://www.digikey.com/short/7vrw05j1)  
 
 Not in the BOM, you will also optionally need about 2 inches or 50mm of 21-24awg (0.7-0.5mm) insulated solid wire. (solid core ethernet cable is typically 23awg) Thicker is better than thinner. 25mm will be used as a pin that a female dupont connector will go on to. 25mm will be used as mechanical strengthening for one of the battery holders.
 
