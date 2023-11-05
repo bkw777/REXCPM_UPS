@@ -6,8 +6,8 @@
 
   (title_block
     (title "REXCPM_UPS_100")
-    (date "2023-09-21")
-    (rev "004")
+    (date "2023-11-04")
+    (rev "005")
     (company "Brian K. White - b.kenyon.w@gmail.com")
     (comment 1 "Replacement REXCPM system bus interface with memory battery")
   )
@@ -1141,7 +1141,7 @@
     (property "Value" "Model_100_System_BUS" (at 76.2 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "000_LOCAL:DIP-40_pins" (at 76.2 69.85 0)
+    (property "Footprint" "000_LOCAL:DIP-40_PCB" (at 76.2 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://datasheets.chipdb.org/Intel/MCS-80/intel-8080.pdf" (at 76.2 67.31 0)
