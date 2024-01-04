@@ -87,7 +87,7 @@ Solder the wire to the capacitor.
 ## Installation
 Connect the 4 female Dupont wires to the REXCPM like this:
 
-BLACK  (GND)     ->  GND pin (the wire you just added, if you did)
+BLACK  (GND)     ->  GND pin (the wire you just added, if you did)  
 RED    (/WR)     ->  pin closest to cap  
 BLUE   (RAM)     ->  middle pin  
 YELLOW (RAM_RST) ->  pin furthest from cap
