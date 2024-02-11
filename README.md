@@ -133,6 +133,7 @@ It does have a few good points though
 Cable options for Model 100:  
 [SparkFun 17260](https://www.sparkfun.com/products/17260)  
 [Adafruit 4399](https://www.adafruit.com/product/4399)  
+[Soldered 108342](https://soldered.com/product/easyc-cable-6cm/)  
 [JST A04SR04SR30K51A](https://www.digikey.com/en/products/detail/jst-sales-america-inc/A04SR04SR30K51A/6009374) (be careful, there is a cable the looks the same with the same part number except it ends in B instead of A, you need the one that ends in A! The B version swaps the wires along the way. To add to the confusion, the descriptions are backwards, and the A version is described as "reversed", but it reality, the A version does NOT swap the wires (pin 1 goes to pin 1, pin 4 goes to pin 4) while the B version DOES swap the wires (pin 1 goes to pin 4, pin 4 goes to pin 1). You need the A version. This also applies to all the other lengths of the same cable.)
 
 Cable options for Model 102:  
